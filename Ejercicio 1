@@ -1,0 +1,3 @@
+NombreDias = ["Dia Final", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Festivo", "Festivo"] # Se hace la lista
+numero = int(input("Digite el número de la semana para conocer el nombre del día: ")) # Se pide al usuario digitar un numero
+print("El nombre del día número"+ "" + str(numero) + "es: " + str(NombreDias[numero])) # Se da el resultado final
